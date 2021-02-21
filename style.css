@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+#nav_bar h1{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 100px;
+  color: lightgreen;
+  margin-top: 15px;
+}
+
+::selection{
+    background-color: lightpink;
+}
+
+#nav_bar{
+    padding-left: 50px;
+    background-color: black;
+    height: 70px;
+    border: 1px solid lightseagreen;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    background-color: lightgreen;
+}
+
+h1::selection{
+    background-color: lightpink;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    color: green;
+}
+
+#flex h1{
+    margin-top: 140px;
+    margin-left: 150px;
+    color: lightgreen;
+}
+
+#header{
+background-image: url(./Assets/headeri.jpg);
+background-size: 100% 100%;
+width: 1357px;
+height: 500px;
+
+}
+
+
+
+@media (min-width: 571px){
+#nav_bar{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+}
+}
